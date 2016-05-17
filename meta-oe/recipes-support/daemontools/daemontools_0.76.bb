@@ -16,7 +16,8 @@ LICENSE = "PD"
 
 SRC_URI = "http://cr.yp.to/daemontools/${BPN}-${PV}.tar.gz \
            file://0001-error.h-include-errno.h-instead-of-extern-int.diff \
-           file://0002-supervise.c-.-supervise-may-be-a-symlink-if-it-s-da.diff "
+           file://0002-supervise.c-.-supervise-may-be-a-symlink-if-it-s-da.diff \
+           file://0001-conf-ld-warning-fix.patch "
 
 SRC_URI_append_class-target = "file://cross-compile.patch"
 
